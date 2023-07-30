@@ -6,10 +6,10 @@ export default function Footer() {
         <footer className='h-1/6 p-2 flex items-center justify-between'>
             <div className="w-52 flex items-center justify-between">
                 <a href="#" className="flex items-center gap-3">
-                    <Image src={"/img/BornToDie-2.jpg"} width={60} height={60} alt='Capa do album Born to Die da Lana del Rey' className="rounded-xl" />
+                    <Image src={"/img/BornToDie2.jpg"} width={60} height={60} alt='Capa do album Born to Die da Lana del Rey' className="rounded-xl" />
                     <div className="text-neutral-300 flex flex-col gap-1">
                         <p className="font-bold text-sm hover:underline">Dark Paradise</p>
-                        <p className="text-neutral-400 text-xs hover:underline">Lana del Rey</p>
+                        <p className="text-neutral-400 text-xs hover:underline">Lana Del Rey</p>
                     </div>
                 </a>
                 <a href="#" className="text-neutra-500 hover:text-neutral-300 transition-all duration-500"><Heart size={18} /></a>
